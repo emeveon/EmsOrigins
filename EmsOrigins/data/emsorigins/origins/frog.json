@@ -1,0 +1,21 @@
+{
+	"powers": [ 
+        "emsorigins:frog/tongue",
+        "emsorigins:frog/bad_hot_biomes",
+        "emsorigins:frog/swimspeed",
+        "emsorigins:frog/jumpy",
+        "emsorigins:frog/weteyes",
+        "emsorigins:frog/wetskin",
+        "emsorigins:frog/lesshearts",
+        "emsorigins:frog/intense_appetite",
+        "emsorigins:frog/smallfigure",
+        "emsorigins:fire_vulnerability",
+        "emsorigins:frost_vulnerability",
+        "emsorigins:fall_immunity"
+	],
+	"icon": "minecraft:slime_ball",
+	"order": 6,
+	"impact": 3,
+	"name": "Ferg",
+	"description": "Blessed by Gaia with the powers of the trees, take up your role as a guardian protector of the forests."
+}

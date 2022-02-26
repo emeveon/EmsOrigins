@@ -1,0 +1,58 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:height .5"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:width .7"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:motion .85"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:drops 0.4"
+            }
+        ]
+    },
+    "entity_action_respawned": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:height .5"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:width .7"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:motion .85"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:drops 0.4"
+            }
+        ]
+    },
+    "entity_action_lost": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale reset @s"
+            }
+        ]
+    },
+    "execute_chosen_when_orb": true,
+    "hidden": false,
+    "description": "You're half the size of the average creature, and you move slightly slower", 
+    "name": "Small Size"
+}
