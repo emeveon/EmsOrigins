@@ -1,0 +1,53 @@
+{
+    "type": "origins:modify_damage_taken",
+    "bientity_condition": {
+        "type": "origins:actor_condition",
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:iron_sword"
+                        }
+                    },
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:iron_axe"
+                        }
+                    },
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:iron_shovel"
+                        }
+                    },
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:iron_pickaxe"
+                        }
+                    },
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:iron_hoe"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "modifier": {
+        "name": "Weak to iron weapons",
+        "operation": "addition",
+        "value": 2
+    }, 
+    "name": "Iron Weakness", 
+    "description": "You are weak to iron.", 
+    "hidden": false
+}

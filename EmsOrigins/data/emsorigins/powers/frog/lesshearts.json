@@ -1,0 +1,12 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Less hearts",
+        "attribute": "minecraft:generic.max_health",
+        "value": -6,
+        "operation": "addition"
+    },
+    "hidden": false, 
+    "name": "Small Figure", 
+    "description": "Do to your small stature, you have seven hearts."
+}

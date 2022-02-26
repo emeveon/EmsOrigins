@@ -1,0 +1,12 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Generic luck increase",
+        "attribute": "minecraft:generic.luck",
+        "value": 2,
+        "operation": "addition"
+    },
+    "hidden": false, 
+    "name": "Lucky", 
+    "description": "You're luckier than most!"
+}

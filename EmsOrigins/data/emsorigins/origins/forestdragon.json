@@ -1,0 +1,17 @@
+{
+	"powers": [ 
+        "emsorigins:forestdragon/canopy_glide",
+        "emsorigins:forestdragon/chlorophyll",
+        "emsorigins:forestdragon/dayattributes",
+        "emsorigins:lucky",
+        "emsorigins:fire_vulnerability",
+        "emsorigins:piercing_vulnerability",
+        "origins:launch_into_air",
+        "origins:vegetarian"
+	],
+	"icon": "minecraft:blue_orchid",
+	"order": 6,
+	"impact": 2,
+	"name": "Forest Dragon",
+	"description": "Blessed by Gaia with the powers of the trees, take up your role as a guardian protector of the forests."
+}
