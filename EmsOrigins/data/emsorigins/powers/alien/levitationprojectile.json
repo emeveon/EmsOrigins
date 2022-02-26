@@ -1,0 +1,18 @@
+{
+    "type": "origins:fire_projectile",
+    "cooldown": 200,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 6
+    },
+    "entity_type": "minecraft:shulker_bullet",
+    "sound": "minecraft:block.respawn_anchor.set_spawn",
+    "speed": 0.75,
+    "divergence": 1.5,
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continuous": false
+    }, 
+    "name": "Gift of the Stars", 
+    "description": "Bless your friends with flight by gifting them temporary immunity from gravity!"
+}

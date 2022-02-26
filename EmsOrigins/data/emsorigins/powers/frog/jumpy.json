@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_jump",
+    "modifier": {
+        "operation": "addition",
+        "value": 0.3
+    },
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "particle item_slime ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
+    }, 
+    "name": "Strong Legs", 
+    "description": "You can jump and swim really, really well."
+}

@@ -1,0 +1,25 @@
+{
+    "type": "origins:action_over_time",
+    "condition": {
+        "type": "origins:in_block",
+        "block_condition": {
+            "type": "origins:height",
+            "comparison": ">=",
+            "compare_to": 80
+        }
+    },
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:mining_fatigue",
+            "duration": 40,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        }
+    },
+    "interval": "40",
+    "name": "Heights Fatigue",
+    "description": "The thin air makes it hard to breath, causing you fatigue at y levels greater than 80."
+}

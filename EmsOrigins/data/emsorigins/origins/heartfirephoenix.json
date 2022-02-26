@@ -1,0 +1,22 @@
+{
+	"powers": [ 
+        "emsorigins:phoenix/heartfire/ambient_fire",
+        "emsorigins:phoenix/heartfire/holyfiretouch",
+        "emsorigins:phoenix/rebirth",
+        "emsorigins:phoenix/setonfire",
+        "emsorigins:phoenix/fiery_appetite",
+        "emsorigins:piercing_vulerability",
+        "emsorigins:lavaspeed",
+        "emsorigins:lavavision",
+        "origins:launch_into_air",
+        "origins:elytra",
+		"origins:fire_immunity", 
+		"origins:nether_spawn",
+		"origins:water_vulnerability"
+	],
+	"icon": "minecraft:lantern",
+	"order": 10,
+	"impact": 3,
+	"name": "Heartfire Phoenix",
+	"description": "Soaring the skies for centuries, a phoenix is reborn. As the latest, and final, incarnation of a phoenix, you have the last flames of their once-great power."
+}

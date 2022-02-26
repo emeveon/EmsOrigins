@@ -1,0 +1,20 @@
+{
+    "type": "origins:modify_break_speed",
+    "modifier": {
+        "name": "Extra speed to mine while flying",
+        "value": 3.0,
+        "operation": "multiply_base"
+    },
+    "condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:fall_flying"
+            },
+            {
+                "type": "origins:creative_flying"
+            }
+        ]
+    }, 
+    "hidden": true
+}

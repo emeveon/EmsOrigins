@@ -1,0 +1,18 @@
+{
+    "powers": [
+            "emsorigins:alien/nightbuff",
+            "emsorigins:alien/moonlaunch",
+            "emsorigins:alien/levitationprojectile", 
+            "emsorigins:alien/moonwalker",
+            "emsorigins:alien/highjump",
+            "emsorigins:nightvision",
+            "emsorigins:alien/particles",
+            "emsorigins:fall_immunity",
+            "origins:slow_falling"
+    ],
+    "icon": "minecraft:beacon",
+    "order": 6,
+    "impact": 2,
+    "name": "Extraterrestrial",
+    "description": "There's more to the universe than what meets the eye... and you happen to be from it."
+}

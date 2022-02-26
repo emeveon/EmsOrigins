@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "origins": [
+        "emsorigins:heartfirephoenix", 
+        "emsorigins:soulfirephoenix", 
+        "emsorigins:forestdragon", 
+        "emsorigins:alien", 
+        "emsorigins:fairy", 
+        "emsorigins:dwarf",
+        "emsorigins:frog"
+    ]
+}
