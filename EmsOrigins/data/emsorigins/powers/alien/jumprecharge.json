@@ -1,0 +1,18 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "*:alien/doublejump_active_jump",
+        "change": 1,
+        "operation": "set"
+    },
+    "interval": 1,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:on_block"
+            }
+        ]
+    }
+}

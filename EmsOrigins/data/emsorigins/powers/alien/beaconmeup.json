@@ -1,0 +1,70 @@
+{
+    "type": "origins:multiple",
+    "beacontime": {
+        "type": "origins:cooldown",
+        "cooldown": 600,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 0,
+            "inverted": true
+        }
+    },
+    "res": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 2,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "beacon": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:trigger_cooldown",
+                    "power": "*:*_beacontime"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_res",
+                    "change": 1,
+                    "operation": "set"
+                },
+                {
+                    "type": "origins:delay",
+                    "ticks": 600,
+                    "action": {
+                        "type": "origins:change_resource",
+                        "resource": "*:*_res",
+                        "change": 2,
+                        "operation": "set"
+                    }
+                },
+                {
+                    "type": "origins:delay",
+                    "ticks": 1200,
+                    "action": {
+                        "type": "origins:change_resource",
+                        "resource": "*:*_res",
+                        "change": 0,
+                        "operation": "set"
+                    }
+                }
+            ]
+        },
+        "key": {
+            "key": "key.origins.primary_active",
+            "continuous": false
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_res",
+            "comparison": "==",
+            "compare_to": 0
+        }
+    },
+    "name": "Beacon Me Up, Johnny!",
+    "description": "Time in the cosmos has given you the ability to act like a temporary, mobile beacon. You can recharge the ability by consuming beacon fuel."
+}

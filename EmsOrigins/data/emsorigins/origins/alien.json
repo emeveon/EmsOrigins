@@ -1,14 +1,17 @@
 {
     "powers": [
-            "emsorigins:alien/nightbuff",
-            "emsorigins:alien/moonlaunch",
-            "emsorigins:alien/levitationprojectile", 
-            "emsorigins:alien/moonwalker",
-            "emsorigins:alien/highjump",
-            "emsorigins:nightvision",
-            "emsorigins:alien/particles",
-            "emsorigins:fall_immunity",
-            "origins:slow_falling"
+        "emsorigins:alien/beaconmeup",
+        "emsorigins:alien/beaconpower",
+        "emsorigins:alien/doublejump",
+        "emsorigins:alien/jumprecharge",
+        "emsorigins:alien/nightbuff",
+        "emsorigins:alien/levitationprojectile",
+        "emsorigins:alien/moonwalker",
+        "emsorigins:alien/highjump",
+        "emsorigins:nightvision",
+        "emsorigins:alien/particles",
+        "emsorigins:fall_immunity",
+        "origins:slow_falling"
     ],
     "icon": "minecraft:beacon",
     "order": 6,
